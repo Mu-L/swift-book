@@ -4,7 +4,6 @@ Write safe, fast, expressive code with a modern, general-purpose language.
 
 @Metadata {
   @TechnologyRoot
-  @DisplayName("The Swift Programming Language")
 }
 
 @Options(scope: global) {
