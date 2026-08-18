@@ -2416,7 +2416,7 @@ For example, the following protocol can be adopted only by class types:
 
 ```swift
 protocol SomeProtocol: AnyObject {
-    /* Protocol members go here */
+    /* Protocol members go here. */
 }
 ```
 
@@ -2425,7 +2425,7 @@ protocol SomeProtocol: AnyObject {
 
   ```swifttest
   -> protocol SomeProtocol: AnyObject {
-         /* Protocol members go here */
+         /* Protocol members go here. */
      }
   ```
 -->
@@ -2444,7 +2444,7 @@ For example, the following protocol can be adopted only by subclasses of `SomeBa
 ```swift
 class SomeBaseClass { /* ... */ }
 protocol SomeRefinedProtocol: SomeBaseClass {
-    /* Protocol members go here */
+    /* Protocol members go here. */
 }
 ```
 
@@ -2454,7 +2454,7 @@ protocol SomeRefinedProtocol: SomeBaseClass {
   ```swifttest
   -> class SomeBaseClass {}
   -> protocol SomeRefinedProtocol: SomeBaseClass {
-         /* Protocol members go here */
+         /* Protocol members go here. */
      }
   ```
 -->
