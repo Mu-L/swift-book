@@ -1818,7 +1818,7 @@ button.display()
 In the example above, `Widget` can only be adopted by subclasses of `Renderer`.
 Because the protocol guarantees that every conforming type is a `Renderer` subclass,
 the `Widget` protocol extension can call `render(_:)` directly.
-This is more restrictive than using `AnyObject`:
+A superclass requirement is more restrictive than using `AnyObject`:
 it limits conformance to a specific class hierarchy,
 not just any class type.
 Use this when the protocol's implementation
